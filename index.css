@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color:indianred;
+}
+.backbox{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 40%;
+	width: 20%;
+	height: 40vh;
+	background-color: white;
+	
+}
+.frontbox{
+	position: absolute;
+	margin-top: 12%;
+	margin-left: -10%;
+	width: 120%;
+	height: 30vh;
+	background-color: palevioletred;
+	box-shadow: 0px 0px 10px;
+	border: 3px solid black;
+}
+#quote{
+	margin-top: 10%;
+	text-align: center;
+	border: none;
+	word-wrap: break-word;
+	font-size: medium;
+	color: white;
+	font-family: sans-serif;
+}
+h3{
+	text-align: center;
+	color: white;
+	margin-top: 5%;
+}
+#btn{
+	background-color: white;
+	color: red;
+	position: absolute;
+    margin-left:35%;
+    margin-top: 8%; 
+    font-size: 20px;
+    padding: 5px 5px;
+    }
